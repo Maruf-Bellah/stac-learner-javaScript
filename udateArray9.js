@@ -21,7 +21,7 @@ for(let i = 0; i < response.length; i++){
 };
 
 // console.log(response);
-let arr = ['Maruf Bellah', 'Ayesha Bellah', 'Sonia', 'Morjina', 'khadija'];
+let arr = ['Maruf Bellah', 'Ayesha Bellah', 'Sonia', 'Morjina', 'khadija', 'sokina'];
 
 function update(arr){
     for(let i = 0; i < arr.length; i++){
@@ -29,7 +29,8 @@ function update(arr){
     }
     return arr;
 };
-
+// arr[0] = false; update kora hoy 
+// arr[arr.length] = 'amr sonar bangla'
 
 const show = update(arr);
 console.log(show );
