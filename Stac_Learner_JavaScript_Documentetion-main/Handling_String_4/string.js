@@ -1,0 +1,1 @@
+// string মানে single cote বা duble cote এর মধ্যে যা থাকবে তাই string 
