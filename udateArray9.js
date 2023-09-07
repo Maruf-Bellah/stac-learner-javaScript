@@ -33,4 +33,6 @@ function update(arr){
 // arr[arr.length] = 'amr sonar bangla'
 
 const show = update(arr);
-console.log(show );
+// console.log(show );
+
+// array of array - Multi Dimensional Array 
