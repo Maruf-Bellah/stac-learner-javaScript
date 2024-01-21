@@ -2,8 +2,8 @@
 
 var http = require("http");
 
-var server = http.createServer(function (res, req) {
-  req.end("hello maruf bellah sever");
+var server = http.createServer(function (req, res) {
+  res.end("hello maruf bellah sever");
 });
 
 server.listen(4000);
